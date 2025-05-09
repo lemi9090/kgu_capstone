@@ -1,0 +1,18 @@
+/* ----  화면 전체(스크롤 포함)에 배경 적용  ---- */
+html, body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    background: #f3f6f8;   /* 원하는 고정 배경색 */
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+  }
+  
+  /* Vite + Vue 프로젝트의 루트 엘리먼트(#app)도 화면 전체 차지 */
+  #app {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
